@@ -33,7 +33,7 @@ export function DesktopNav({ items, className }: Props) {
         </NavigationMenuList>
       </NavigationMenu>
       <Button asChild>
-        <Link target="_blank" href="https://forms.gle/dsGHw8XUaCv4bZ5s5">Contact Us</Link>
+        <Link href="/contact">Contact Us</Link>
       </Button>
     </nav>
   );

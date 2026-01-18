@@ -13,7 +13,7 @@ export function Hero() {
     <div className="z-1 grid w-full place-items-center p-8  mb-20">
       <BackgroundBlur className="-top-40 md:top-0" />
       <Nav />
-      <div className="mt-16 flex flex-wrap justify-center flex-row items-center gap-48">
+      <div className="mt-8 flex flex-wrap justify-center flex-row items-center gap-48">
 
         <div className=" space-y-7">
           <motion.h1 initial={{opacity:0 , x:-200}} transition={{ease:easeInOut,duration:1}} animate={{opacity:1,x:0}} className="text-center text-4xl leading-[1.1] font-medium tracking-tight sm:text-[40px]">
@@ -44,7 +44,7 @@ export function Hero() {
         </div>
         <motion.div initial={{opacity:0 , x:200}} transition={{ease:easeInOut,duration:1, delay:1.3}} animate={{opacity:1,x:0}}>
 
-          <Image src="/app-image-1.png" alt="Hero" width={280} height={445} />
+          <Image src="/Mock-1-.png" alt="Hero" width={280} height={445} />
         </motion.div>
       </div>
     </div>
