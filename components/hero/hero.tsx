@@ -13,7 +13,7 @@ export function Hero() {
     <div className="z-1 grid w-full place-items-center p-8  mb-20">
       <BackgroundBlur className="-top-40 md:top-0" />
       <Nav />
-      <div className="mt-8 flex flex-wrap justify-center flex-row items-center gap-48">
+      <div className="mt-8 flex flex-wrap justify-center flex-row items-center sm:gap-48 gap-20">
 
         <div className=" space-y-7">
           <motion.h1 initial={{opacity:0 , x:-200}} transition={{ease:easeInOut,duration:1}} animate={{opacity:1,x:0}} className="text-center text-4xl leading-[1.1] font-medium tracking-tight sm:text-[40px]">

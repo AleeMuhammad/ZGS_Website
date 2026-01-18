@@ -4,7 +4,7 @@ import { Nav } from "@/components/hero/nav";
 import { Footer } from "@/components/footer/footer";
 import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
-import { toast } from "sonner"; // Assuming sonner is installed as seen in layout.tsx
+import { toast } from "sonner"; 
 import emailjs from "@emailjs/browser";
 
 
@@ -48,8 +48,11 @@ export default function ContactPage() {
 
     return (
         <>
-        <main className="min-h-screen py-7 px-8 bg-background text-foreground overflow-x-hidden">
+        <main className="min-h-screen py-7  bg-background text-foreground overflow-x-hidden">
+            <div className="px-8">
+
             <Nav />
+            </div>
 
             <section className="relative pt-32 pb-20 px-6 md:pt-30 md:pb-32">
                 <div className="absolute inset-0 -z-10 overflow-hidden">
