@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
         <p>
           For a better experience while using our App, we may require you to
           provide us with certain personally identifiable information, including
-          but not limited to your name, phone number, and postal address. The
+          but not limited to your name. The
           information that we collect will be used to contact or identify you.
         </p>
 
